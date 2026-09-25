@@ -1,0 +1,21 @@
+# colcon build output (regenerate with ./build.sh)
+build/
+install/
+log/
+
+# per-run outputs from run_go2_teleop.sh
+run_report/
+slip_dataset/
+
+# backup of the vendored repo's original .git (upstream is credited in README.md)
+src/unitree_go2_ros2/.git.bak/
+
+# Python
+__pycache__/
+*.pyc
+
+# stray screenshots (curated images live in docs/images/)
+/Screenshot*.png
+/Pasted image*.png
+
+*.zip

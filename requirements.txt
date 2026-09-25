@@ -1,0 +1,16 @@
+# Python dependencies for the go2_eskf scripts (plotting, reports, terrain
+# generation, slip-model training). ROS packages (rclpy, launch_ros, *_msgs, ...)
+# come from ROS 2 Jazzy + rosdep, not pip -- see build.sh --deps.
+#
+# On Ubuntu 24.04 the system pip is externally managed, so prefer apt:
+#   sudo apt install python3-numpy python3-matplotlib python3-pil
+# or install into a venv created with --system-site-packages (so rclpy stays visible):
+#   pip install -r requirements.txt
+
+numpy>=1.26
+matplotlib>=3.6
+Pillow>=10.2
+
+# Optional: slip-model training uses PyTorch when present and falls back to a
+# NumPy logistic regression without it. Uncomment to install (large download).
+# torch>=2.0
