@@ -1,4 +1,4 @@
-# Rasp_jazz_wk — Unitree Go2 ESKF localization (ROS 2 Jazzy)
+# Unitree Go2 ESKF localization (ROS 2 Jazzy)
 
 A ROS 2 Jazzy workspace for simulating the Unitree Go2 quadruped in Gazebo Harmonic
 and localizing it with **`go2_eskf`**, an 8-state error-state EKF that fuses
